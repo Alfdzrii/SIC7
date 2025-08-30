@@ -13,10 +13,10 @@ print("Your BMI is:", bmi_saya)
 
 if isinstance(bmi_saya, (float, int)):
     if bmi_saya < 18.5:
-        print("Kategori: Kurus")
+        print("Category: Skinny")
     elif 18.5 <= bmi_saya < 24.9:
-        print("Kategori: Normal")
+        print("Category: Normal")
     elif 25 <= bmi_saya < 29.9:
-        print("Kategori: Gemuk (Overweight)")
+        print("category: Overweight")
     else:
-        print("Kategori: Obesitas")
+        print("Category : Obese")
